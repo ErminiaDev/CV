@@ -80,7 +80,6 @@ h4 {
     text-transform: uppercase;
 }
 
-
 .description {
     display: flex;
     justify-content: space-between;
@@ -97,7 +96,22 @@ h4 {
     flex-basis: 65%;
 }
 
+
 .contenu {
     padding-top: 5px;
     padding-bottom: 10px;
+}
+
+#loisirs i.fas {
+    font-size: 3rem;
+}
+
+#loisirs .contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#col_droite h2 i {
+    color: #90CAF9;
 }
