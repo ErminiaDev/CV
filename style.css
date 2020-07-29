@@ -7,6 +7,14 @@ main {
     font-family: 'Montserrat', sans-serif;
 }
 
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
 #col_gauche { 
     position: relative;
     display: flex;
@@ -51,6 +59,10 @@ h1 {
 h1 span {
     font-weight: 400;
     color: #90CAF9
+}
+
+header {
+    margin-bottom: 140px;
 }
 
 h4 {                                                                                                            
