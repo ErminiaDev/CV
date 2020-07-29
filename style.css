@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 main {
     display: flex;
     font-family: 'Montserrat', sans-serif;
@@ -13,12 +17,46 @@ main {
     padding: 40px;
 }
 
+#col_gauche h2 {
+    background-color: #004D40;
+    color: #90CAF9;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: -40px;
+    margin-left: -40px;
+}
+
 #col_droite {
     box-sizing: border-box;
     width: 65%;
     padding: 40px;
     padding-left: 50px;
 }
+
+#col_droite h2 {
+    text-transform: uppercase;
+    color: #004D40;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #90CAF9;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+h1 span {
+    font-weight: 400;
+    color: #90CAF9
+}
+
+h4 {                                                                                                            
+    text-transform: uppercase;
+}
+
 
 .description {
     display: flex;
