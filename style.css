@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#col_gauche { 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #90CAF9;
+    box-sizing: border-box;
+    width: 35%;
+    padding: 40px;
+}
+
+#col_droite {
+    box-sizing: border-box;
+    width: 65%;
+    padding: 40px;
+    padding-left: 50px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 35%;
+    font-weight: 600;
+}
+
+.detail {
+    flex-basis: 65%;
+}
+
+.contenu {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
