@@ -35,6 +35,17 @@ main {
     margin-left: -40px;
 }
 
+#photo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+
 #col_droite {
     box-sizing: border-box;
     width: 65%;
