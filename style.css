@@ -15,6 +15,8 @@ main {
     margin-top: 0;
 }
 
+/***COLONNE DE GAUCHE ****************/
+
 #col_gauche { 
     position: relative;
     display: flex;
@@ -25,15 +27,7 @@ main {
     padding: 40px;
 }
 
-#col_gauche h2 {
-    background-color: #004D40;
-    color: #90CAF9;
-    padding: 0;
-    text-align: center;
-    text-transform: uppercase;
-    margin-right: -40px;
-    margin-left: -40px;
-}
+/**************** encart photo **************/
 
 #photo {
     text-align: center;
@@ -45,6 +39,55 @@ img {
     border-radius: 50%;
     text-align: center;
 }
+
+/***************** titre des sections  ************/
+#col_gauche h2 {
+    background-color: #004D40;
+    color: #90CAF9;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: -40px;
+    margin-left: -40px;
+}
+
+/****************** contenu des sections ************/
+
+.contenu {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+/*****************section loisirs********************/
+
+#loisirs {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 40px;
+}
+
+#loisirs h2 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+ #loisirs .contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+ #loisirs i.fas {
+     font-size: 3rem;
+ }
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+/***COLONNE DE DROITE ****************/
 
 #col_droite {
     box-sizing: border-box;
@@ -59,6 +102,12 @@ img {
     padding-bottom: 10px;
     border-bottom: 2px solid #90CAF9;
 }
+
+#col_droite h2 i {
+    color: #90CAF9;
+}
+
+/*******************titre**********************/
 
 h1 {
     font-size: 3rem;
@@ -76,14 +125,18 @@ header {
     margin-bottom: 140px;
 }
 
-h4 {                                                                                                            
-    text-transform: uppercase;
-}
+/********************* sous-section ****************/
 
 .description {
     display: flex;
     justify-content: space-between;
 }
+
+h4 {                                                                                                            
+    text-transform: uppercase;
+}
+
+/*************** dates(colonne de gauche) ****************/
 
 .date {
     display: flex;
@@ -106,41 +159,13 @@ h4 {
     font-size: 0.5rem;
 }
 
+/*************** détails(colonne de droite) ****************/
+
 .detail {
     flex-basis: 65%;
 }
 
-
-.contenu {
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
-
-#loisirs i.fas {
-    font-size: 3rem;
-}
-
-#loisirs .contenu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-#col_droite h2 i {
-    color: #90CAF9;
-}
-
-#loisirs {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 40px;
-}
-
-#loisirs h2 {
-    margin-right: 0;
-    margin-left: 0;
-}
+/****************** recommandations **************/
 
 .reco_description {
     display: flex;
