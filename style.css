@@ -130,3 +130,33 @@ h4 {
     color: #90CAF9;
 }
 
+#loisirs {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 40px;
+}
+
+#loisirs h2 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.reco_description {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1rem;
+}
+
+address {
+    font-style: normal;
+    flex-basis: 50%;
+}
+
+address a {
+    display: block;
+}
+
+address p {
+    margin: 0;
+}
