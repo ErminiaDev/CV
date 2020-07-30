@@ -92,6 +92,20 @@ h4 {
     font-weight: 600;
 }
 
+.date i {
+    color: #90CAF9;
+    margin-top: 21px;
+    margin-right: 5px;
+}
+
+.bullet .fa-record-vinyl {
+    font-size: 0.8rem;
+}
+
+.bullet .fa-circle {
+    font-size: 0.5rem;
+}
+
 .detail {
     flex-basis: 65%;
 }
@@ -115,3 +129,4 @@ h4 {
 #col_droite h2 i {
     color: #90CAF9;
 }
+
