@@ -35,7 +35,7 @@ main {
 }
 
 img {
-    width: 200px;
+    width: 75%;
     border-radius: 50%;
     text-align: center;
 }
@@ -184,4 +184,46 @@ address a {
 
 address p {
     margin: 0;
+}
+
+@media (max-width: 875px) {
+    #loisirs i.fas {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #col_gauche { 
+        padding: 15px;
+        font-size: 0.8rem;
+    }
+
+    #col_gauche h2{ 
+        font-size: 1.1rem;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    #col_gauche p{
+        max-width: 100%;
+    }
+
+    #col_droite {
+        padding: 15px;
+        padding-left: 20px;
+    }
+
+    #col_droite h2 {
+        font-size: 1.1rem;
+    }
+
+    #col_droite h4, p, address {
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
 }
