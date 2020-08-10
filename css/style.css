@@ -239,6 +239,38 @@ address p {
         margin-bottom: 35px;
     }
 
+    nav a {
+        text-decoration: none;
+    }
+
+    nav li {
+        list-style-type: none;
+        margin-bottom: 5px;
+    }
+
+    nav i {
+        margin-right: 5px;
+    }
+
+    nav a:link {
+        color: #90CAF9;
+    }
+
+    nav a:visited {
+        color: #004D40;
+    }
+
+
+    #nav-photo {
+        text-align: center;
+    }
+
+    #nav-photo img {
+        position: relative;
+        margin-top: 15px;
+        width: 130px;
+    }
+
     #titre h1 {
         font-size: 1.7rem;
     }
