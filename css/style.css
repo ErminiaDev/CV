@@ -1,8 +1,5 @@
 body {
     margin: 0;
-}
-
-main {
     display: flex;
     font-family: 'Montserrat', sans-serif;
 }
@@ -15,6 +12,8 @@ main {
     margin-top: 0;
 }
 
+
+
 /***COLONNE DE GAUCHE ****************/
 
 #col_gauche { 
@@ -25,6 +24,10 @@ main {
     box-sizing: border-box;
     width: 35%;
     padding: 40px;
+}
+
+h1 {
+    display: none;
 }
 
 /**************** encart photo **************/
@@ -54,8 +57,14 @@ img {
 /****************** contenu des sections ************/
 
 .contenu {
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+/**************** section contact *******************/
+
+#contact p:nth-of-type(2n) {
+    margin-bottom: 15px;
 }
 
 /*****************section loisirs********************/
@@ -109,19 +118,24 @@ img {
 
 /*******************titre**********************/
 
-h1 {
+#titre h2 {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: -1px;
+    border-bottom: none;
 }
 
-h1 span {
+#titre h2 span {
     font-weight: 400;
     color: #90CAF9
 }
 
-header {
+#titre h3 span {
+    border-bottom: 1px solid #90CAF9;
+}
+
+#titre {
     margin-bottom: 140px;
 }
 
@@ -132,7 +146,8 @@ header {
     justify-content: space-between;
 }
 
-h4 {                                                                                                            
+.uppercase {     
+    font-size: 1.2rem;
     text-transform: uppercase;
 }
 
@@ -187,6 +202,8 @@ address p {
 }
 
 @media (max-width: 875px) {
+
+
     #loisirs i.fas {
         font-size: 2rem;
     }
@@ -219,7 +236,7 @@ address p {
         font-size: 1.1rem;
     }
 
-    #col_droite h4, p, address {
+    #col_droite h3, p, address {
         font-size: 0.8rem;
     }
 

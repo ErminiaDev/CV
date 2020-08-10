@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Marine Jeanningros</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marine Jeanningros</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c2ac0bd41e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main>
-        <div id="col_gauche">
-            <div id="photo">
-                <a href="IMG/photo_max.jpg"><img src="IMG/photo_min.jpg" alt=""></a>
-            </div>
+        <!-- proposer un nav en version mobile  -->
+        <aside id="col_gauche">
+            <header>
+                <h1>Curriculum vitae</h1>
+                <div id="photo">
+                    <!-- plutôt balise  picture-->
+                    <a href="img/photo_max.jpg"><img src="img/photo_min.jpg" alt=""></a>
+                </div>
+            </header>
             <section id="contact">
                 <h2>contact</h2>
-                <div class="contenu">
+                <address class="contenu">
                     <p class="no-margin-bottom">Adresse</p>
                     <p class="no-margin-top">Muttersholtz, France</p>
                     
@@ -31,14 +35,13 @@
                     
                     <p class="no-margin-bottom">Skype</p>
                     <p class="no-margin-top">@erminiadev</p>
-                </div>
+                </address>
             </section>
             <section id="a_propos">
                 <h2>à propos de moi</h2>
                 <div class="contenu">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fugiat, ducimus accusamus aspernatur labore laudantium, vero distinctio quae animi, laboriosam blanditiis! Deleniti mollitia incidunt minus itaque, velit suscipit porro et recusandae consequatur, eos hic laboriosam vero harum eveniet quod voluptatibus perspiciatis corporis modi voluptas pariatur obcaecati. Dolor possimus minima a.</p>
                 </div>
-                
             </section>
             <section id="loisirs">
                 <h2>loisirs</h2>
@@ -48,12 +51,14 @@
                     <i class="fas fa-biking"></i>
                 </div>
             </section>
-        </div>
-        <div id="col_droite">
-            <header>
-                <h1 class="no-margin-bottom"><span>Marine</span> Jeanningros</h1>
-                <h3 class="no-margin-top">Développeuse web freelance</h3>
-            </header>
+        </aside>
+        <!-- main -->
+        <main id="col_droite">
+            <section id="titre">
+                <h2 class="no-margin-bottom titre"><span>Marine</span> Jeanningros</h2>
+                <h3 class="no-margin-top"><span>Dével</span>oppeuse web freelance</h3>
+                <!-- petite ligne sous h3 -->
+            </section>
             <section id="formation">
                 <h2><i class="fas fa-graduation-cap"></i>&nbsp;&nbsp;formation</h2>
                 <div class="description">
@@ -66,7 +71,7 @@
                             <p class="no-margin-top">Bas-Rhin</p></div>
                         </div>
                     <div class="detail">
-                        <h4>Openclassrooms</h4>
+                        <h3 class="uppercase">Openclassrooms</h3>
                         <p>Développeur Web Junior</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic ipsam dolorum fuga nihil placeat aliquam optio veritatis rerum quia!</p>
                     </div>
@@ -82,7 +87,7 @@
                         </div>
                     </div>
                     <div class="detail">
-                        <h4>Ecole d'Ingénieur de Purpan</h4>
+                        <h3 class="uppercase">Ecole d'Ingénieur de Purpan</h3>
                         <p>Ingénieure en agriculture</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic ipsam dolorum fuga nihil placeat aliquam optio veritatis rerum quia!</p>
                     </div>
@@ -101,7 +106,7 @@
                         </div>
                     </div>
                     <div class="detail">
-                        <h4>L'Atelier Bois et Design</h4>
+                        <h3 class="uppercase">L'Atelier Bois et Design</h3>
                         <p>Développeuse web freelance</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic ipsam dolorum fuga nihil placeat aliquam optio veritatis rerum quia!</p>
                     </div>
@@ -117,7 +122,7 @@
                         </div>
                     </div>
                     <div class="detail">
-                        <h4>Pain noir - Pain blanc</h4>
+                        <h3 class="uppercase">Pain noir - Pain blanc</h3>
                         <p>Développeuse web freelance</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic ipsam dolorum fuga nihil placeat aliquam optio veritatis rerum quia!</p>
                     </div>
@@ -133,7 +138,7 @@
                         </div>
                     </div>
                     <div class="detail">
-                        <h4>Conseillère en irrigation</h4>
+                        <h3 class="uppercase">Conseillère en irrigation</h3>
                         <p>Chambre d'agriculture d'Alsace</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic ipsam dolorum fuga nihil placeat aliquam optio veritatis rerum quia!</p>
                     </div>
@@ -154,8 +159,8 @@
                     </address>
                 </div>
             </section>
-        </div>
-    </main>
+        </main>
+    <!-- footer avec crédits -->
     
 </body>
 </html>
