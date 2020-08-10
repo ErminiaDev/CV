@@ -268,7 +268,7 @@ address p {
     #nav-photo img {
         position: relative;
         margin-top: 15px;
-        width: 130px;
+        width: 115px;
     }
 
     #titre h1 {
@@ -288,7 +288,7 @@ address p {
     }
 
     #col_gauche { 
-        padding: 15px;
+        padding: 0 15px;
         font-size: 0.8rem;
     }
 
@@ -300,6 +300,15 @@ address p {
 
     #col_gauche p{
         max-width: 100%;
+    }
+
+    #a_propos {
+        margin-bottom: 40px;
+    }
+
+    #loisirs {
+        position: relative;
+        width: 100%;
     }
 
     #col_droite {
