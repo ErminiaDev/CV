@@ -12,11 +12,24 @@ body {
     margin-top: 0;
 }
 
+#nav-mobile {
+    width: 100%;
+    display: none;
+}
+
+.titre-mobile {
+    display: flex;
+}
+
+#nav-photo {
+    display: none;
+}
 
 
 /***COLONNE DE GAUCHE ****************/
 
 #col_gauche { 
+    order: 1;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -24,10 +37,6 @@ body {
     box-sizing: border-box;
     width: 35%;
     padding: 40px;
-}
-
-h1 {
-    display: none;
 }
 
 /**************** encart photo **************/
@@ -99,6 +108,7 @@ img {
 /***COLONNE DE DROITE ****************/
 
 #col_droite {
+    order: 2;
     box-sizing: border-box;
     width: 65%;
     padding: 40px;
@@ -118,7 +128,7 @@ img {
 
 /*******************titre**********************/
 
-#titre h2 {
+#titre h1 {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 300;
@@ -126,12 +136,18 @@ img {
     border-bottom: none;
 }
 
-#titre h2 span {
+#titre h1 span {
     font-weight: 400;
     color: #90CAF9
 }
 
-#titre h3 span {
+#titre h2 {
+    color: black;
+    text-transform: capitalize;
+    border-bottom: none;
+}
+
+#titre h2 span {
     border-bottom: 1px solid #90CAF9;
 }
 
@@ -202,14 +218,41 @@ address p {
 }
 
 @media (max-width: 875px) {
+    body {
+        display: block;
+    }
 
+    #col_droite, #col_gauche {
+        width: 100%;
+    }
+
+    .titres {
+        margin-right: 20px;
+    }
+
+    #titre {
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+    nav {
+        margin-bottom: 35px;
+    }
+
+    #titre h1 {
+        font-size: 1.7rem;
+    }
+
+    #nav-mobile, #nav-photo {
+        display: block;
+    }
 
     #loisirs i.fas {
         font-size: 2rem;
     }
 
-    img {
-        width: 100%;
+    #photo {
+        display: none;
     }
 
     #col_gauche { 
