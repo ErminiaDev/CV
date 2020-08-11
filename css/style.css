@@ -17,13 +17,9 @@ body {
     display: none;
 }
 
-
-
 #nav-photo {
     display: none;
 }
-
-
 
 /***COLONNE DE GAUCHE ****************/
 
@@ -41,13 +37,12 @@ body {
 /**************** encart photo **************/
 
 #photo {
-    margin: 60px;
+    margin: 40px;
     text-align: center;
-    padding-bottom: 20px;
 }
 
 img {
-    width: 100%;
+    width: 75%;
     border-radius: 50%;
     text-align: center;
 }
@@ -86,7 +81,7 @@ img {
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: 40px;
+    bottom: 10px;
 }
 
 #loisirs h2 {
@@ -203,6 +198,15 @@ i.fas.fa-globe {
 
 .detail {
     flex-basis: 65%;
+}
+
+.detail a {
+    text-decoration: none;
+    color: black;
+}
+
+.detail a:hover {
+    color: #90CAF9;
 }
 
 /****************** recommandations **************/
