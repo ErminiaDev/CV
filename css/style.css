@@ -17,18 +17,13 @@ body {
     display: none;
 }
 
-.titre-mobile {
-    display: flex;
-}
+
 
 #nav-photo {
     display: none;
 }
 
-i.fas.fa-globe {
-    margin-left: 5px;
-    font-size: 1rem;
-}
+
 
 /***COLONNE DE GAUCHE ****************/
 
@@ -136,7 +131,7 @@ img {
 
 /*******************titre**********************/
 
-#titre h1 {
+#header h1 {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 300;
@@ -144,23 +139,28 @@ img {
     border-bottom: none;
 }
 
-#titre h1 span {
+#header h1 span {
     font-weight: 400;
     color: #90CAF9
 }
 
-#titre h2 {
+#header h2 {
     color: black;
     text-transform: capitalize;
     border-bottom: none;
 }
 
-#titre h2 span {
+#header h2 span {
     border-bottom: 1px solid #90CAF9;
 }
 
-#titre {
+#header {
     margin-bottom: 140px;
+}
+
+i.fas.fa-globe {
+    margin-left: 5px;
+    font-size: 1rem;
 }
 
 /********************* sous-section ****************/
@@ -234,11 +234,11 @@ address p {
         width: 100%;
     }
 
-    .titres {
+    header.titres {
         margin-right: 20px;
     }
 
-    #titre {
+    #header {
         display: flex;
         margin-bottom: 25px;
     }
@@ -279,7 +279,7 @@ address p {
         width: 115px;
     }
 
-    #titre h1 {
+    #header h1 {
         font-size: 1.7rem;
     }
 
