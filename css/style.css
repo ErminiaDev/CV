@@ -47,6 +47,10 @@ img {
     text-align: center;
 }
 
+#nav-photo a span, #photo a span {
+    display: none;
+}
+
 /***************** titre des sections  ************/
 #col_gauche h2 {
     background-color: #004D40;
