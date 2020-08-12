@@ -263,6 +263,7 @@ address p {
     nav li {
         list-style-type: none;
         margin-bottom: 5px;
+        font-size: 1.2rem;
     }
 
     nav i {
